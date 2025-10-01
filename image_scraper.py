@@ -181,7 +181,7 @@ def scrape_google_images(query, num_images, output_directory):
                 if 'data:image' in img_url and len(img_url) < 1000:
                     continue
                 
-                image_name = f"{query.split()[0]}_{downloaded_count}.jpg"
+                image_name = f"{query.replace(" ", "_")}_{downloaded_count}.jpg"
                 image_path = os.path.join(output_directory, image_name)
                 
                 if img_url.startswith('data:image/'):
