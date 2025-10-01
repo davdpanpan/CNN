@@ -1,0 +1,22 @@
+# Data science and machine learning
+pandas
+numpy
+tensorflow
+keras
+matplotlib
+scikit-learn
+
+# Image processing
+Pillow
+
+# Web scraping
+beautifulsoup4
+requests
+selenium
+
+# Computer vision (optional, commented out in your code)
+# opencv-python
+
+# Jupyter notebook support (if you want to run the notebook)
+jupyter
+ipykernel
